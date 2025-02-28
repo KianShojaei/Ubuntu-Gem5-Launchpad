@@ -53,10 +53,10 @@ Dual-booting allows you to install Ubuntu alongside your existing operating syst
 **Video Tutorials**:  
 - **English**:  
   - [How to Dual-Boot Ubuntu with Windows](https://youtu.be/GXxTxBPKecQ)
-  - [How to Dual-Boot Ubuntu with macOS]([https://www.youtube.com/watch?v=5Fm6Zg6u6wE](https://www.bing.com/ck/a?!&&p=01d4b282fba6639e194064087ec316f455bb59cd7b47126c3b036b99843c374dJmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=0da4df0f-03c4-6b03-1b37-cb2002a46a21&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9SG93K3RvK0R1YWwtQm9vdCtVYnVudHUrd2l0aCttYWNPUyZtaWQ9NUZDMjgyQjA0NjE1MDBGRTlGNUM1RkMyODJCMDQ2MTUwMEZFOUY1QyZtY2lkPTgwRkQwRTM0ODBFMzRDQkM4NjA5MzBEMUU0NDEzRjZFJkZPUk09VklSRQ&ntb=1))  
+  - [How to Dual-Boot Ubuntu with macOS](https://youtu.be/KIgxEEzT9ek)  
 - **Persian**:  
   - [نصب اوبونتو به صورت Dual-Boot با ویندوز](https://youtu.be/oRC4jNQrnMU)  
-  - [نصب اوبونتو به صورت Dual-Boot با مک](https://www.youtube.com/watch?v=XYZ)  
+  - [نصب اوبونتو به صورت Dual-Boot با مک](https://it-planet.ir/8527)  
 
 #### **Option 2: Virtual Machine (VM)**  
 If you don’t want to dual-boot, you can run Ubuntu inside a virtual machine using tools like VirtualBox or VMware.  
