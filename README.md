@@ -108,12 +108,10 @@ build/ARM/gem5.opt configs/example/se.py --cmd=tests/test-progs/hello/bin/arm/li
 
 **Video Tutorials**:  
 - **English**:  
-  - [How to Install and Run gem5](https://www.youtube.com/watch?v=XYZ)  
-  - [Introduction to gem5 Simulation](https://www.youtube.com/watch?v=XYZ)  
+  - [How to Install and Run gem5]([https://www.youtube.com/watch?v=XYZ](https://youtu.be/d59ct6SYmzg))  
+  - [Introduction to gem5 Simulation](https://youtu.be/n-jeY_tWzVY)  
 - **Persian**:  
-  - [نصب و راه‌اندازی gem5](https://www.youtube.com/watch?v=XYZ)  
-  - [آموزش gem5 برای مبتدیان](https://www.youtube.com/watch?v=XYZ)  
-
+  - [نصب و راه‌اندازی gem5](https://www.aparat.com/v/6L0mK/)  
 ---
 
 ## **Additional Resources**  
