@@ -113,19 +113,21 @@ build/ARM/gem5.opt configs/example/se.py --cmd=tests/test-progs/hello/bin/arm/li
 - **Persian**:  
   - [نصب و راه‌اندازی gem5](https://www.aparat.com/v/6L0mK/)  
 ---
+Got it! Here's the updated section without the YouTube videos and with the PDF links merged into the explanation text in an engaging way:
+
+---
 
 ## **Additional Resources**  
 ### **Linux (Ubuntu) Tutorials**  
-- **PDFs**: Check out the `docs/ubuntu-tutorials` folder in this repository for beginner-friendly guides.  
-- **YouTube Videos**:  
-  - **English**: [Ubuntu Beginner’s Guide](https://www.youtube.com/watch?v=XYZ)  
-  - **Persian**: [آموزش اوبونتو برای مبتدیان](https://www.youtube.com/watch?v=XYZ)  
+If you're new to Linux and need an introduction to its basic commands and functionalities, you're in the right place! Dive into the **`docs/linux-tutorials`** folder in this repository, where you’ll find beginner-friendly guides like:  
+- 📄 **IntroductionToLinux**: A step-by-step introduction to Linux and its core concepts.  
+- 📄 **LinuxTutorial**: A handy reference for common commands to navigate and manage your system like a pro.  
 
 ### **gem5 Tutorials**  
-- **PDFs**: Explore the `docs/gem5-tutorials` folder for detailed documentation and guides.  
-- **YouTube Videos**:  
-  - **English**: [gem5 Simulation Tutorial](https://www.youtube.com/watch?v=XYZ)  
-  - **Persian**: [آموزش شبیه‌سازی با gem5](https://www.youtube.com/watch?v=XYZ)  
+Ready to explore the world of computer architecture simulation? Head over to the **`docs/gem5-tutorials`** folder, where you’ll find detailed guides and documentation to help you master gem5. Some highlights include:  
+- 📄 **gem5Tutorial**: Learn how to set up, configure, and run your first simulations.  
+
+Whether you're a beginner or looking to deepen your knowledge, these resources will help you unlock the full potential of gem5 and linux.  
 
 ---
 
