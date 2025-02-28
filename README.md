@@ -63,7 +63,7 @@ If you don’t want to dual-boot, you can run Ubuntu inside a virtual machine us
 
 **Steps**:  
 1. **Install VirtualBox/VMware**:  
-   Download [VirtualBox](https://www.virtualbox.org) or [VMware Workstation Player](https://www.vmware.com).  
+   Download [VirtualBox](https://www.virtualbox.org) or [VMware Workstation Player](https://www.bing.com/ck/a?!&&p=8ad9b8648572845286d19d466e3e083481ab665931a504d74c6f90bd8308e171JmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=0da4df0f-03c4-6b03-1b37-cb2002a46a21&psq=VMware+Workstation+Player.&u=a1aHR0cHM6Ly9ibG9ncy52bXdhcmUuY29tL3dvcmtzdGF0aW9uLzIwMjQvMDUvdm13YXJlLXdvcmtzdGF0aW9uLXByby1ub3ctYXZhaWxhYmxlLWZyZWUtZm9yLXBlcnNvbmFsLXVzZS5odG1s&ntb=1).  
 2. **Create a New VM**:  
    - Allocate RAM (≥4GB) and disk space (≥20GB).  
    - Mount the Ubuntu ISO and complete the installation.  
