@@ -113,9 +113,6 @@ build/ARM/gem5.opt configs/example/se.py --cmd=tests/test-progs/hello/bin/arm/li
 - **Persian**:  
   - [نصب و راه‌اندازی gem5](https://www.aparat.com/v/6L0mK/)  
 ---
-Got it! Here's the updated section without the YouTube videos and with the PDF links merged into the explanation text in an engaging way:
-
----
 
 ## **Additional Resources**  
 ### **Linux (Ubuntu) Tutorials**  
