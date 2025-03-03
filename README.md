@@ -75,23 +75,43 @@ sudo apt update && sudo apt upgrade  # Update packages
 sudo apt install build-essential git python3  # Essential tools
 ```
 
----
-
 ### **2. Installing gem5**  
+
 #### **Step 1: Install Dependencies**  
-Run the following commands to install all required dependencies:  
+**Choose your Ubuntu version:**  
+
+##### **Ubuntu 24.04 (gem5 ≥ v24.0)**  
 ```bash
-sudo apt install build-essential git m4 scons zlib1g zlib1g-dev \
-libprotobuf-dev protobuf-compiler libprotoc-dev libgoogle-perftools-dev \
-python3-dev python3-pip python-is-python3
+sudo apt install build-essential scons python3-dev git pre-commit zlib1g zlib1g-dev \
+    libprotobuf-dev protobuf-compiler libprotoc-dev libgoogle-perftools-dev \
+    libboost-all-dev libhdf5-serial-dev python3-pydot python3-venv python3-tk mypy \
+    m4 libcapstone-dev libpng-dev libelf-dev pkg-config wget cmake doxygen
 ```
 
+##### **Ubuntu 22.04 (gem5 ≥ v21.1)**  
+```bash
+sudo apt install build-essential git m4 scons zlib1g zlib1g-dev \
+    libprotobuf-dev protobuf-compiler libprotoc-dev libgoogle-perftools-dev \
+    python3-dev libboost-all-dev pkg-config python3-tk
+```
+
+##### **Ubuntu 20.04 (gem5 ≥ v21.0)**  
+```bash
+sudo apt install build-essential git m4 scons zlib1g zlib1g-dev \
+    libprotobuf-dev protobuf-compiler libprotoc-dev libgoogle-perftools-dev \
+    python3-dev python-is-python3 libboost-all-dev pkg-config gcc-10 g++-10 \
+    python3-tk
+```
+
+---
+
 #### **Step 2: Clone the gem5 Repository**  
-Clone the official gem5 repository:  
 ```bash
 git clone https://github.com/gem5/gem5.git
 cd gem5
 ```
+
+---
 
 #### **Step 3: Build gem5**  
 Build gem5 for your desired architecture (e.g., ARM, X86):  
@@ -100,11 +120,46 @@ Build gem5 for your desired architecture (e.g., ARM, X86):
 scons build/ARM/gem5.opt -j4  # Use "-jN" where N = number of CPU cores
 ```
 
+---
+
 #### **Step 4: Test gem5**  
 Run a simple test to verify the installation:  
 ```bash
 build/ARM/gem5.opt configs/example/se.py --cmd=tests/test-progs/hello/bin/arm/linux/hello
 ```
+
+---
+
+### **Alternative: Docker Setup**  
+If you prefer containerized environments, use our pre-built Docker images:  
+
+#### **Available Images**  
+```bash
+# Ubuntu 24.04 (All dependencies)
+docker pull ghcr.io/gem5/ubuntu-24.04_all-dependencies:v24-0
+
+# Ubuntu 22.04 (All dependencies)
+docker pull ghcr.io/gem5/ubuntu-22.04_all-dependencies:v23-0
+
+# Ubuntu 20.04 (All dependencies)
+docker pull ghcr.io/gem5/ubuntu-20.04_all-dependencies:v23-0
+```
+
+#### **Run the Docker Container**  
+```bash
+docker run -u $UID:$GID --volume <gem5-directory>:/gem5 --rm -it <image-name>
+```  
+Replace:  
+- `<gem5-directory>`: Full path to your local gem5 folder (e.g., `/home/user/gem5`)  
+- `<image-name>`: Docker image name (e.g., `ghcr.io/gem5/ubuntu-22.04_all-dependencies:v23-0`)  
+
+**Example**:  
+```bash
+docker run -u $UID:$GID --volume ~/projects/gem5:/gem5 --rm -it ghcr.io/gem5/ubuntu-22.04_all-dependencies:v23-0
+```  
+You can now build and run gem5 from the `/gem5` directory inside the container.
+
+---
 
 **Video Tutorials**:  
 - **English**:  
